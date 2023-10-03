@@ -1,0 +1,87 @@
+/*=============== PAGE - MENU ===============*/
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 0 9.5rem 0 9.5rem;
+}
+
+.menu_title {
+    margin: 2.25rem 0 0 0;
+}
+
+.menu_subtitle {
+    margin: 0 0 2.25rem 0;
+}
+
+.menu_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.menu_icon {
+    width: 9rem;
+    height: 9rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.menu_part {
+    margin-bottom: 3.75rem;
+}
+
+.menu_partTitle {
+    margin-bottom: 1.75rem;
+}
+
+.menu_partDish {
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+}
+
+/*=============== REPONSIVE DESIGN ===============*/
+@media (max-width: 768px) {
+    .menu {
+        margin: 0;
+        align-items: center;
+    }
+    
+      .menu_subtitle {
+        display: none;
+    }
+    
+    .menu_card {
+        width: 19.5rem;
+        padding-bottom: 2rem;
+        margin-top: 2.25rem
+    }
+    
+    .menu_icon {
+        width: 4rem;
+        height: 4rem;
+        margin-top: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .menu_part {
+        margin-bottom: 0;
+    }
+    
+    .menu_partTitle {
+        margin-bottom: 0.5rem;
+    }
+      
+    .menu_partDish {
+        margin-bottom: 0;
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+    
+    .menu_dishDescription {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+}

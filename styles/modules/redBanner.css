@@ -1,0 +1,26 @@
+/*=============== RED BANNER ===============*/
+.redBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--red-highlight);
+    color: var(--white);
+    padding: 3.75rem 0 3.75rem 0;
+}
+
+.redBanner_title {
+    font-weight: var(--body-hightlight-font-weight);
+    margin: 0 0 1rem 0;
+}
+
+/*=============== REPONSIVE DESIGN ===============*/
+@media (max-width: 768px) {
+    .redBanner {
+        padding: 2.75rem 0 2.75rem 0;
+    }
+
+    .redBanner_title {
+        margin-bottom: 2rem;
+    }
+}

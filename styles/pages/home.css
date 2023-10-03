@@ -1,0 +1,158 @@
+/*=============== PAGE - INDEX ===============*/
+    /*-- Hero section --*/
+    .hero {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 6.5rem;
+    }
+
+    .hero_titleContainer {
+        padding: 2.75rem 7.5rem 0 0;
+    }
+
+    .hero_title {
+        margin: 0 0 0.75rem 0;
+    }
+
+    .hero_subtitle {
+        margin: 0 0 2rem 0;
+        font-weight: var(--body-highlight-font-weight);
+    }
+
+    .hero_icon {
+        width: 19rem;
+        height: 19rem;
+    }
+
+    /*-- Address section --*/
+    .address {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10rem;
+        margin-bottom: 4.5rem;
+    }
+
+    .address_title {
+        margin-bottom: 2.25rem;
+    }
+      
+    .address_carousel {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 7rem;
+    }
+      
+    .address_img {
+        width: 19rem;
+        height: 13.5rem;
+        object-fit: cover;
+    }
+      
+    .address_info {
+        margin: 0.5rem 0 0 0;
+    }
+
+    /*-- About section --*/
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2.25rem;
+    }
+      
+    .about_title {
+        margin-bottom: 1rem;
+    }
+      
+    .about_text {
+        margin: 0 0 0 0;
+        width: 85%;
+    }
+
+    /*-- Social section --*/
+    .socialMedia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+    }
+      
+    .socialMedia_title {
+        margin-bottom: 2.25rem;
+    }
+      
+    .socialMedia_carousel {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4.5rem;
+    }
+      
+    .socialMedia_img {
+        width: 15.5rem;
+        height: 15.5rem;
+        object-fit: cover;
+    }
+
+/*=============== REPONSIVE DESIGN ===============*/
+@media (max-width: 768px) {
+    /*-- Hero section --*/
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2.5rem;
+    }
+    
+      .hero_titleContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 0 4.5rem 0;
+    }
+    
+      .hero__title {
+        padding-bottom: 0.25;
+    }
+    
+      .hero_subtitle {
+        margin-bottom: 1rem;
+    }
+      
+      .hero_icon {
+        width: 14.5rem;
+        height: 14.5rem;
+    }
+
+    /*-- Address section --*/
+    .address {
+        margin-top: 4.5rem;
+    }
+      
+      .address_carousel {
+        grid-template-columns: 1fr;
+        grid-gap: 2.5rem;
+    }
+    
+      .address_img {
+        width: 16rem;
+        height: 11.25rem;
+    }
+
+    /*-- About section --*/
+    .about_text {
+        max-width: 16rem;
+        text-align: center;
+    }
+
+    /*-- Social section --*/
+    .socialMedia {
+        margin-top: 2rem;
+    }
+    
+      .socialMedia_carousel {
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
+}

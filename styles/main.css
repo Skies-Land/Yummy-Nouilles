@@ -1,0 +1,103 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+
+/*=============== IMPORT PAGES CSS ===============*/
+@import 'pages/home.css';
+@import 'pages/menu.css';
+@import 'pages/contact.css';
+
+/*=============== IMPORT MODULES CSS ===============*/
+@import 'modules/appBar.css';
+@import 'modules/cta.css';
+@import 'modules/redBanner.css';
+@import 'modules/contactInfo.css';
+@import 'modules/footer.css';
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    /* Colors */
+    --red-highlight: #D2483D;
+    --light-grey: #F3F3F3;
+    --black: #000000;
+    --white: #FFFFFF;
+
+    /* Fonts text */
+    --body-font: 'Montserrat';
+    --body-font-weight: 'Montserrat';
+    --hearder-font: 'Bebas Neue';
+    --title-font: 'Bebas Neue';
+
+    /* Weight text */
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --header-font-weight: 400;
+    --title-font-weight: 400;
+
+    /* Size text*/
+    --body-font-size: 1.25rem;
+    --body-highlight-font-size: 1.25rem;
+    --header-font-size: 4.5rem;
+    --title-font-size: 1.5rem;
+
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+    --header-line-height: 5.375rem;
+    --title-line-height: 1.75rem;
+}
+
+/*=============== BASE ===============*/
+body {
+    background-color: var(--light-grey);
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: var(--body-font-weight);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    color: var(--black);
+}
+
+h1 {
+    font-family: var(--hearder-font);
+    font-style: normal;
+    font-weight: var(--header-font-weight);
+    font-size: var(--header-font-size);
+    line-height: var(--header-line-height);
+    color: var(--black);
+}
+
+h2 {
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    color: var(--black);
+    text-decoration: underline var(--red-highlight); /* ajoute un trait sous les titres h2 */
+    text-underline-offset: 0.25rem; /* ajuste le décalage entre la ligne et le texte  */
+    text-decoration-thickness: 0.188rem; /* ajuste l'épaisseur de la ligne  */
+}
+
+.color-highlight {
+    color: var(--red-highlight);
+}
+
+.text-highlight {
+    font-weight: var(--body-highlight-font-weight);
+}
+
+/*=============== REPONSIVE DESIGN ===============*/
+@media (max-width: 768px) {
+    :root {
+        /* Size - Mobile Variables */
+        --body-font-size: 1rem;
+        --body-highlight-font-size: 1rem;
+        --header-font-size: 2.5rem;
+        --title-font-size: 1.25rem;
+
+        /* Height - Mobile Variables */
+        --body-line-height: 1.25rem;
+        --body-highlight-line-height: 1.25rem;
+        --header-line-height: 3rem;
+        --title-line-height: 1.5rem;
+    }
+}

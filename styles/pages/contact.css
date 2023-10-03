@@ -1,0 +1,46 @@
+/*=============== PAGE - CONTACT ===============*/
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_title {
+    margin: 6rem 0 2.5rem 0.75rem;
+}
+
+.contact_addressContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.contact_address {
+    padding: 0 1.5rem;
+    margin-top: 0;
+}
+
+/*=============== REPONSIVE DESIGN ===============*/
+@media (max-width: 768px) {
+    .contact_title {
+        margin: 2.25rem 0 0.5rem 0;
+    }
+
+    .contact_addressContainer {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .contact_address {
+        padding: 0 0;
+        margin: 0 0 0.75rem 0;
+        text-align: center;
+    }
+
+    .contact_addressTitle {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+}

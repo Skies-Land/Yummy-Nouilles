@@ -1,0 +1,24 @@
+/*=============== CONTACT ===============*/
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4.5rem 0 4.5rem 0;
+}
+
+.contactInfo_title {
+    margin-bottom: 1rem;
+}
+
+.contactInfo_text {
+    text-align: center;
+    margin: 0 0 0 0;
+    width: 85%;
+}
+
+/*=============== REPONSIVE DESIGN ===============*/
+@media (max-width: 768px) {
+    .contactInfo_text {
+        max-width: 16rem;
+    }
+}

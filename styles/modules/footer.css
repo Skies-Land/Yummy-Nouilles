@@ -1,0 +1,27 @@
+/*=============== FOOTER ===============*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: var(--black);
+    padding: 5rem 4.5rem 5rem 4.5rem;
+}
+
+.footer_icon {
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-left: 3.25rem;
+}
+
+/*=============== REPONSIVE DESIGN ===============*/
+@media (max-width: 768px) {
+    .footer {
+        justify-content: center;
+        padding: 4.75rem 0 4.75rem 0;
+    }
+
+    .footer_icon {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+}
