@@ -1,5 +1,5 @@
 # Yummy-Nouilles
-Intégration d'une maquette Figma en HTML & CSS - Cours OpenClassrooms
+Intégration d'une maquette Figma en HTML & CSS - Cours [OpenClassrooms](https://openclassrooms.com/fr/)
 
 Objectifs du cours :
 
