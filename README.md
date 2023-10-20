@@ -7,6 +7,8 @@ Objectifs du cours :
 - Structuration de plusieurs pages en HTML
 - Ajoute du style avec le CSS
 
+▶ [Voir le projet : Yummy-Nouilles](https://skies-land.github.io/Yummy-Nouilles/)
+
 ![Accueil](https://github.com/Skies-Land/Yummy-Nouilles/assets/146822518/b9220a72-7bbf-4121-b09e-f154b4a331da)
 
 
